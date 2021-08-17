@@ -8,16 +8,16 @@ import {
 } from "react-icons/ai";
 const Footer = () => {
   return (
-    <div className="bg-navbarColor w-full h-36 flex  flex-row justify-center">
-      <div className="h-1/3">
+    <div className="bg-navbarColor w-full h-36 flex flex-col ">
+      <div className="h-1/3 flex items-center justify-center w-full my-4">
         <img src={Logo} alt="" className="h-full" />
       </div>
-      <div className="flex justify-center items-center ">
-        <FaFacebook className="text-white  " />
-        <AiFillInstagram className="text-white " />
-        <AiFillYoutube className="text-white" />
-        <FaPinterest className="text-white " />
-        <AiFillTwitterCircle className="text-white "/>
+      <div className="flex justify-center items-center gap-10 my-1">
+        <FaFacebook className="text-white  " size={30} />
+        <AiFillInstagram className="text-white " size={30} />
+        <AiFillYoutube className="text-white" size={30} />
+        <FaPinterest className="text-white " size={30} />
+        <AiFillTwitterCircle className="text-white " size={30} />
       </div>
     </div>
   );
